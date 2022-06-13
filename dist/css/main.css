@@ -473,6 +473,12 @@ footer {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .projects__bio-image {
+    height: 20vh;
+  }
+}
+
 body {
   background-color: #272727;
   color: #fff;

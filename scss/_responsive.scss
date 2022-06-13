@@ -69,3 +69,11 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+@include media-xl {
+    .projects {
+        &__bio-image {
+            height: 20vh;
+        }
+    }
+}
